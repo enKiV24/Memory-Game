@@ -24,7 +24,7 @@ public class MemoryGame {
             //Reading Words.txt
             String word[] = new String[100];
             int x = 0;
-            Scanner fileScanner = new Scanner(new File("C:\\Users\\Admin\\Desktop\\Andrzej Kornaś - Motorola - recruitment task Java\\MemoryGame\\src\\main\\java\\com\\mycompany\\memorygame\\Words.txt"));
+            Scanner fileScanner = new Scanner(new File("C:\\Users\\Admin\\Desktop\\Andrzej Kornaś - Memory Game in Java\\MemoryGame\\src\\main\\java\\com\\mycompany\\memorygame\\Words.txt"));
             while(fileScanner.hasNext()){
                 word[x] = fileScanner.nextLine();
 
