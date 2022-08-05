@@ -150,7 +150,7 @@ public class MemoryGame {
                             compareGuess[0] = 7;
                         }else{
                             System.out.println("----------------------------");
-                            System.out.println("To select a word, type:: \nA1,A2,A3,A4,\nB1,B2,B3,B4");
+                            System.out.println("To select a word, type: \nA1,A2,A3,A4,\nB1,B2,B3,B4");
                             rightGuess[0] = null;
                             i--;
                             wrongAnswear = true;
@@ -333,7 +333,7 @@ public class MemoryGame {
                             compareGuess[0] = 15;
                         }else{
                             System.out.println("----------------------------");
-                            System.out.println("To select a word, type::\nA1,A2,A3,A4,\nB1,B2,B3,B4,\nC1,C2,C3,C4\nD1,D2,D3,D4");
+                            System.out.println("To select a word, type:\nA1,A2,A3,A4,\nB1,B2,B3,B4,\nC1,C2,C3,C4\nD1,D2,D3,D4");
                             rightGuess[0] = null;
                             i--;
                             wrongAnswear = true;
