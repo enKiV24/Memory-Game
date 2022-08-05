@@ -54,14 +54,7 @@ public class MemoryGame {
             // Alphabet A-D
             String[] letters = {"A","B","C","D"};
 
-
-
-
-
-
-
-            //GAME EASY
-
+            //GAME EASY-----------------------------------------------------------------------------------------------------------
             if(menuGuess == 1){
 
                 int m = 0;
@@ -113,7 +106,6 @@ public class MemoryGame {
                     int[] compareGuess = new int[2];
                     boolean wrongAnswear = false;
 
-
                     for(int i = 0;i<2;i++){
 
                         if(wrongAnswear == false){
@@ -122,7 +114,6 @@ public class MemoryGame {
                         }
 
                         String playerGuess = scanner.nextLine();
-
 
                         wrongAnswear = false;
                         if(playerGuess.equals("A1") || playerGuess.equals("a1")){
@@ -216,7 +207,6 @@ public class MemoryGame {
             }
 
             //GAME HARD-----------------------------------------------------------------------------------------------------------
-
             if(menuGuess == 2){
 
                 int m = 0;
@@ -268,16 +258,13 @@ public class MemoryGame {
                     int[] compareGuess = new int[2];
                     boolean wrongAnswear = false;
 
-
                     for(int i = 0;i<2;i++){
-
                         if(wrongAnswear == false){
                             rightGuess[1] = rightGuess[0];
                             compareGuess[1] = compareGuess[0];
                         }
 
                         String playerGuess = scanner.nextLine();
-
 
                         wrongAnswear = false;
                         if(playerGuess.equals("A1") || playerGuess.equals("a1")){
@@ -375,10 +362,8 @@ public class MemoryGame {
                                     }
                                     System.out.print("|");
                                     }
-
                             }
                             System.out.println("\n---+---------------+---------------+---------------+---------------+");
-
                         }
                     // Right Check
                     if(rightGuess[0].equals(rightGuess[1])){
@@ -401,8 +386,7 @@ public class MemoryGame {
                 }
             }
             
-            
-            //3. Exit
+            //3. Exit-----------------------------------------------------------------------------------------------------------
             if(menuGuess == 3){
                 System.out.println("Bye!");
                 endGame = true;
