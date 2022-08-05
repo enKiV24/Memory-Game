@@ -1,0 +1,3 @@
+I started my playing with coding when I was 12, trying to create my own game similar to "Warblade". It was going fine but unfortunately I didn't finish the game. I returned to coding in college. I thought it would be easier, but I was wrong. A lot of people in college had graduated from IT schools, or already had a job as a programmer, so I had a harder time because I had to catch up with their skills. This put me off programming. In my second year of studies, I decided that I would do programming myself. I do not have enough skills to be employed as a programmer jet, but if I want to, I learn quickly. While doing the recruitment task, I had a lot of fun and I learned that there is still a lot of work ahead of me.
+
+~Andrzej Kornaś
